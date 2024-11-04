@@ -12,8 +12,8 @@ const MovieDetailsModal = ({ movie, onClose, onCartAdd }) => {
             alt={movie.title}
           />
           <div className="p-5 lg:p-11">
-            <div className="">
-              <h2 className="text-3xl lg:text-[50px] mb-2 font-bold">
+            <div>
+              <h2 className="leading-none text-3xl lg:text-[50px] mb-2 font-bold">
                 {movie.title}
               </h2>
               <span className="block text-base text-[#9fa0a4] dark:text-[#575A6E] my-3">
